@@ -1,4 +1,4 @@
-package carmelonhaldon.derivedfilter;
+package es.carmelonhaldon.derivedfilter;
 
 import org.eclipse.core.resources.IResource;
 import org.eclipse.jface.viewers.Viewer;

@@ -1,9 +1,9 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
-Bundle-Name: __carmelonhaldon.derivedfilter.name
-Bundle-SymbolicName: __carmelonhaldon.derivedfilter;singleton:=true
+Bundle-Name: __derivedfilter
+Bundle-SymbolicName: es.carmelonhaldon.derivedfilter;singleton:=true
 Bundle-Version: 1.0.0.qualifier
-Bundle-Activator: carmelonhaldon.derivedfilter.Activator
+Bundle-Activator: es.carmelonhaldon.derivedfilter.Activator
 Require-Bundle: org.eclipse.ui,
  org.eclipse.core.runtime,
  org.eclipse.core.resources,
@@ -12,4 +12,4 @@ Require-Bundle: org.eclipse.ui,
  org.eclipse.jdt.core
 Bundle-RequiredExecutionEnvironment: JavaSE-1.7
 Bundle-ActivationPolicy: lazy
-Export-Package: carmelonhaldon.derivedfilter
+Export-Package: es.carmelonhaldon.derivedfilter
