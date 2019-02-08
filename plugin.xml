@@ -60,7 +60,7 @@
             description="derived-description"
             enabled="true"
             id="es.carmelonhaldon.derivedfilter.javaElementFilters"
-            name="__derived"
+            name="__derivedfilter"
             class="es.carmelonhaldon.derivedfilter.DerivedFilter"
             targetId="org.eclipse.jdt.ui.PackageExplorer"></filter>
    </extension>
@@ -72,7 +72,7 @@
         class="es.carmelonhaldon.derivedfilter.DerivedFilter"
         description="derived-description"
         id="es.carmelonhaldon.derivedfilter.navigatorContent"
-        name="__derived">                   			
+        name="__derivedfilter">                   			
   		</commonFilter>
 	</extension>
 
