@@ -1,5 +1,5 @@
 !/
 
- bin/*
-!bin/plugins
-!bin/.gitignore
+# bin
+
+!*.gitignore
