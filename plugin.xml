@@ -59,9 +59,9 @@
       <filter
             description="derived-description"
             enabled="true"
-            id="es.carmelonhaldon.eclipse.derivedfilter.javaElementFilters"
-            name="__derivedfilter"
-            class="es.carmelonhaldon.eclipse.derivedfilter.DerivedFilter"
+            id="es.personal.eclipse.derivedfilter.javaElementFilters"
+            name="**derivedfilter"
+            class="es.personal.eclipse.derivedfilter.DerivedFilter"
             targetId="org.eclipse.jdt.ui.PackageExplorer"></filter>
    </extension>
    
@@ -69,10 +69,10 @@
          point="org.eclipse.ui.navigator.navigatorContent">
 		<commonFilter
         activeByDefault="true"
-        class="es.carmelonhaldon.eclipse.derivedfilter.DerivedFilter"
+        class="es.personal.eclipse.derivedfilter.DerivedFilter"
         description="derived-description"
-        id="es.carmelonhaldon.eclipse.derivedfilter.navigatorContent"
-        name="__derivedfilter">                   			
+        id="es.personal.eclipse.derivedfilter.navigatorContent"
+        name="**derivedfilter">                   			
   		</commonFilter>
 	</extension>
 
@@ -80,7 +80,7 @@
          point="org.eclipse.ui.navigator.viewer">
     	<viewerContentBinding viewerId="org.eclipse.ui.navigator.ProjectExplorer">
     		<includes>
-            	<contentExtension pattern="es.carmelonhaldon.eclipse.derivedfilter.*" />
+            	<contentExtension pattern="es.personal.eclipse.derivedfilter.*" />
 	        </includes>
       	</viewerContentBinding>
 	</extension>
